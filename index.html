@@ -12,6 +12,9 @@
   <!-- daisy ui -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
      <script src="https://unpkg.com/@tailwindcss/browser@4"></script> <!--v-4 -->
   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
@@ -27,6 +30,9 @@
           }
         }
       </script>
+
+
+</script>
 
       <!-- google font  -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -95,6 +101,7 @@
                     <div class="mb-8"> <p class="text-xl text-gray-700 font-thin ">Discover a world of treats, toys, and essentials handpicked for <br>your furry friends. Shop now and make tails wag with joy!</p></div>
                      <button class="btn btn-warning ">Register</button>
                  </div>
+                 <div class="mar"> <marquee  scrollamount="10"  behavior="_scrol_" direction="">My pet name is Tomy</marquee></div>
             </div>
         </section> 
 
@@ -348,24 +355,41 @@
 
 
         </section>
+        <section class="max-w-[1620px] mx-auto px-16  lg:px-28">
+          <div class=" grid grid-cols-2">
+            <div>
+              <div><img src="../Assignment-03-catagory-001/c1-assets/dog-cartoon.png" alt=""></div>
+              <div><img src="../Assignment-03-catagory-001/c1-assets/fish-cartoon.png" alt=""></div>
+              <div><img src="../Assignment-03-catagory-001/c1-assets/insta.png" alt=""></div>
+              <div><img src="../Assignment-03-catagory-001/c1-assets/facebook.png" alt=""></div>
+            </div>
+            <label class="swap swap-flip text-9xl">
+              <!-- this hidden checkbox controls the state -->
+              <input type="checkbox" />
+            
+              <div class="swap-on">😈</div>
+              <div class="swap-off">😇</div>
+            </label>
+          </div>
+      </section>
 
 
-<section class="mb-[300px]">
+<section class="mb-[300px] ">
 
-  <div class="text-5xl sm:text-xl font-bold mb-8 mt-12"> <h3 >Every Day low price</h3></div>
+  <div class="text-5xl sm:text-xl font-bold mb-8 mt-12 -mb-450"> <h3 >Every Day low price</h3></div>
 
 
-  <div class="grid grid-cols-1 gap-8 md:grid-cols-1 lg:grid-cols-2 gap-x-8 mt:8 md:mt-9 lg:mt-11 ">
+  <div class="grid grid-cols-1 gap-8 md:grid-cols-1 lg:grid-cols-2 gap-x-8 -mt:28 md:mt-9 lg:mt-11 ">
 
    
     
               
-      <div class="bg-linear-65 from-[#F8CCFB] to-[#ACD2FD] w-[754px] h-[400px]  rounded-lg flex items-center ">
+      <div class="bg-linear-65 from-[#F8CCFB] to-[#ACD2FD]  w-[754px] h-[400px] rounded-lg flex items-center invisible lg:visible ">
         <div class="flex flex-col px-15 gap-5">
           <h2 class="hidden lg:block ">Under price</h2>
         <p class="text-2xl font-bold  ">Pet Gromming Mitt</p>
         <p class="text-white hidden lg:block">Easy Hair remove</p>
-        <p class="text-white font-bold text-2xl lg:text-black lg:font-bold ">$ 7.99</p>
+        <p class="text-white font-bold text-2xl lg:text-black  lg:font-bold ">$ 7.99</p>
         </div>
         <div class="card-actions  w-[width: 244px] h-[200px] -mt-23 ">
           <img class="w-[360px] -mt-15"
@@ -375,16 +399,33 @@
       </div>
     
 
-  
+      
 
-
-
-  
-    <div class="   rounded-lg ml-35 ">
+      <div class="  visible lg:invisible   rounded-lg ml-35   ">
               
-      <div class="bg-linear-65 from-yellow-500 to-[#F9DF8A] w-512px] h-[400px]  rounded-lg ">
+        <div class="bg-linear-65 from-[#F8CCFB] to-[#ACD2FD]   w-512px] h-[400px] -mt-[380px] rounded-lg ">
+          <h2 class="card-title px-5 py-5">Tshirt for Dog's</h2>
+          <p class="text-2xl px-5 font-bold text-white  ">$ 7.99</p>
+          <!-- <p class="text-gray-600 px-5 py-3 ">Discover a world of threats , toys , <br>and essential handpicked for</p> -->
+          <!-- <div class="px-5"><button class="btn bg-[#FFFFFF] px-5 py-3 ">Shope Now</button></div>
+           -->
+          <div class="card-actions justify-end w-[width: 244px] h-[200px] -mt-10">
+            <img
+            src="../Assignment-03-catagory-001/c1-assets/cute-pet-small.png"
+            alt="Movie" />
+          </div>
+        </div>
+      </div>
+  
+
+
+
+  
+    <div class=" lg:invisible visible  rounded-lg ml-35 ">
+              
+      <div class="bg-linear-65 from-yellow-500 to-[#F9DF8A]   w-512px] h-[400px]  rounded-lg ">
         <h2 class="card-title px-5 py-5">Tshirt for Dog's</h2>
-        <p class="text-2xl px-5 font-bold text-yellow-950 ">$ 7.99</p>
+        <p class="text-2xl px-5 font-bold text-green-500 ">$ 7.99</p>
         <!-- <p class="text-gray-600 px-5 py-3 ">Discover a world of threats , toys , <br>and essential handpicked for</p> -->
         <!-- <div class="px-5"><button class="btn bg-[#FFFFFF] px-5 py-3 ">Shope Now</button></div>
          -->
@@ -395,18 +436,29 @@
         </div>
       </div>
     </div>
+
+
+    <div class=" invisible lg:visible   rounded-lg ml-35 -mt-[430px]">
+              
+      <div class="bg-linear-65 from-yellow-500 to-[#F9DF8A]   w-512px] h-[400px]  rounded-lg ">
+        <h2 class="card-title px-5 py-5">Tshirt for Dog's</h2>
+        <p class="text-2xl px-5 font-bold text-green-500 ">$ 7.99</p>
+        <!-- <p class="text-gray-600 px-5 py-3 ">Discover a world of threats , toys , <br>and essential handpicked for</p> -->
+        <!-- <div class="px-5"><button class="btn bg-[#FFFFFF] px-5 py-3 ">Shope Now</button></div>
+         -->
+        <div class="card-actions justify-end w-[width: 244px] h-[200px] -mt-10">
+          <img
+          src="../Assignment-03-catagory-001/c1-assets/cute-pet-small.png"
+          alt="Movie" />
+        </div>
+      </div>
+    </div>
+
   </div>
 
 </section>
  
 
-<section class=" ">
- 
- 
-    
-  
-
-</section> 
 
     </main>
 
@@ -415,7 +467,7 @@
     <footer >
           
       
-      <div class="relative bg-yellow-500 grid grid-cols-1  grid-item-c">  
+      <div class="relative bg-yellow-500 grid grid-cols-1  grid-item-c lg:-mt-[400px]">  
 
 
           <!-- <div class=" bg-pink-100 w-4/6 mx-auto py-16 px-6 lg:px-28 lg:py-20  lg:w-[1380px]    absolute  lg:left-1/2 lg:-translate-x-1/2   lg:-mt-40   ">
@@ -454,10 +506,10 @@
                     <p class="text-sm lg:text-base">Exclusive training tips, ticks, product deals and more.</p>
                 </div>
                 <div class="mb-5">
-                    <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs">
+                    <input type="text" placeholder="Enter your email" class="input input-bordered w-full max-w-xs">
                 </div>
                 <div>
-                    <button class="btn btn-warning">Register</button>
+                    <button class="btn btn-warning">Subsvribe</button>
                 </div>
             </div>
         </div>
@@ -466,7 +518,7 @@
 
        <div class="  max-w-[1620px] mx-auto px-16  lg:px-28  bg-yellow-500  ">
         <div class="grid grid-cols-1 -mt-40  lg:grid-cols-3 gap-10 lg:gap-24 lg:mt-[400px] ">
-          <div class=" pt-[200px] lg:-mt-50 ">
+          <div class=" -ml-26 pt-[200px] lg:-mt-50  ">
             <div class="flex justify-items-center items-center  ">
               <img class="" src="../Assignment-03-catagory-001/c1-assets/logo-header.png" alt="">
              
@@ -475,13 +527,13 @@
              <div><p>Discover a world of threats , <br>and essential handpick for your funny frind</p></div>
            </div>
   
-           <div class="  ">
+           <div class="-ml-26 ">
             <div><p>Find a pet</p></div>
             <div>Breads</div>
             <div>Contact us</div>
            </div>
   
-           <div class=""> 
+           <div class="-ml-26"> 
             <div><p>Follow us</p></div>
             <div class="flex"><img src="../Assignment-03-catagory-001/c1-assets/facebook.png" alt=""><img src="../Assignment-03-catagory-001/c1-assets/insta.png" alt=""><img src="../Assignment-03-catagory-001/c1-assets/twitter.png" alt=""></div>
            </div>
